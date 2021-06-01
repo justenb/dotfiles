@@ -1,0 +1,76 @@
+env:
+  TERM: xterm-256color
+window:
+  dimensions:
+    columns: 0
+    lines: 0
+  padding:
+    x: 4
+    'y': 4
+  decorations: full
+font:
+  normal:
+    family: Monoid
+    style: Retina
+  bold:
+    family: Monoid
+    style: Bold
+  italic:
+    family: Monoid
+    style: Italic
+  bold_italic:
+    family: Monoid
+    style: Italic
+  size: 9
+  offset:
+    x: 0
+    'y': 0
+  glyph_offset:
+    x: 0
+    'y': 0
+colors:
+  primary:
+    background: '#292C3E'
+    foreground: '#EBEBEB'
+    dim_foreground: '#eff0f1'
+    bright_foreground: '#ffffff'
+    dim_background: '#31363b'
+    bright_background: '#000000'
+  normal:
+    black: '#0d0d0d'
+    red: '#FF301B'
+    green: '#A0E521'
+    yellow: '#FFC620'
+    blue: '#1BA6FA'
+    magenta: '#8763B8'
+    cyan: '#21DEEF'
+    white: '#EBEBEB'
+  bright:
+    black: '#6D7070'
+    red: '#FF4352'
+    green: '#B8E466'
+    yellow: '#FFD750'
+    blue: '#1BA6FA'
+    magenta: '#A578EA'
+    cyan: '#73FBF1'
+    white: '#FEFEF8'
+  cursor:
+    text: '#FF261E'
+    cursor: '#FF261E'
+  dim:
+    black: '#31363b'
+    red: '#783228'
+    green: '#17a262'
+    yellow: '#b65619'
+    blue: '#1b668f'
+    magenta: '#614a73'
+    cyan: '#186c60'
+    white: '#63686d'
+  name: Eighties (dark)
+  author: Chris Kempson
+live_config_reload: true
+shell:
+  program: /usr/bin/zsh
+cursor:
+  style: Block
+  unfocused_hollow: true
